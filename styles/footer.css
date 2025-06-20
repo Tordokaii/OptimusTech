@@ -1,0 +1,23 @@
+.rodape{
+    background-color: var(--rodape);
+    
+}
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+
+}
+
+.email{
+    border-radius: 8px;
+    width: 360px;
+    border: 1px solid #D0D5DD;
+    padding-left: 8px;
+    font-weight: 400;
+}
+
+.direitos{
+    color: var(--direitos) ;
+}

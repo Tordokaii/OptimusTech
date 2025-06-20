@@ -1,0 +1,41 @@
+.cabeçalho__menu{
+font-size: 18px;
+color: var(--cinza-titulo);
+align-items: center;
+gap: 32px;
+display: flex;
+}
+.cabeçalho{
+    display: grid;
+    text-decoration: none;
+    grid-template-columns: 20% 60% 20%;
+    margin: 18px 80px;
+    text-align:center;
+    align-items: center;
+}
+
+.cabeçalho__menu__item{
+    text-decoration: none;
+    color: var(--cinza-titulo);
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.botao{
+    background-color: var(--vermelho-secundario);
+    color: var(--fundo-branco);
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.acoes{
+    display: flex;
+    justify-content: end;
+    color: var(--cinza-texto);
+}
+.menu{
+    color: var(--cinza-texto);
+}
+

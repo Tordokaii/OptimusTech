@@ -1,0 +1,148 @@
+.conteudo__apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 10%;
+    text-align: center;
+}
+
+.assunto{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--vermelho-secundario);
+    padding-top: 3%;
+}
+.titulo-principal{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--cinza-titulo);
+}
+
+.paragrafo-comum{
+    color: var(--cinza-texto);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.conteudo__quantidade{
+    color: var(--vermelho-secundario);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.conteudo__subtitulo{
+    color: var(--cinza-titulo);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.conteudo__descriçao{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-texto);
+}
+
+.conteudo__listas{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  padding: 80px 112px 200px 112px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.aviso {
+  color: var(--vermelho-secundario);
+  background-color: var(--background-vermelho-transparente);
+  padding: 4px 12px;
+  border-radius: 16px;
+}
+
+.imagem-principal{
+    width: 100%;
+}
+
+.vagas__card{
+    border: 1px solid #EAECF0;
+    width: 200px;
+    border-radius: 16px;
+    display: flex;
+    padding: 24px;
+    flex-direction: column;       
+    justify-content: center;
+    margin: auto;
+    width: 768px;
+    height: 135px;
+}
+
+.vagas__detalhes-vaga{
+    display: flex;
+    color: var(--cinza-texto);
+    gap: 20px;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.vagas__area{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0px;
+    width: 810px;          
+}
+
+.vagas__cargo{
+    padding: 0px 0px 84px 0px;
+}
+.vagas{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center ;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--cinza-titulo);
+    margin: 1%;
+}
+
+.avaliacao{
+    margin: 0% 8% 4% 8%;
+    background-color: var(--background-vermelho-transparente);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4% 10% 4% 10%;
+    border-radius: 16px;
+    gap: 36px;
+}
+
+.avaliacao__assunto{
+    color: var(--vermelho-secundario);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.avaliacao__feedback{
+    font-size: 36px;
+    color: var(--cinza-titulo);
+    font-weight: 500;
+    text-align: center;
+}
+
+.avaliacao__perfil{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+}
+
+.avaliacao__foto{
+    margin: 15px ;
+}
+
+.avaliacao__perfil{
+    gap: 10px;
+}
